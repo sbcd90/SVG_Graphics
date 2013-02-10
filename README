@@ -1,0 +1,7 @@
+This is a repository containing the list of reusable charts developed using scalable vector graphics(SVG).
+
+The charts are developed in such a way that they can be reused in other apps easily.
+
+In some cases, d3.js library is used for a sample demo of the chart with some demo data.
+
+The library will be enhanced more & more.

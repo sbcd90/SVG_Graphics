@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title>Heart Chart</title>	
+</head>
+<body id="testbody" onclick="start()">
+	<script type="text/javascript">
+		var f = 0;
+	</script>	
+	<script type="text/javascript">
+		function start(){
+				setInterval(function(){
+					document.getElementById("testbody").innerHTML = "<svg width = '800' height = '500'><path d='M300,150 S100,50 300,300' fill=rgb(" + f.toString() + ",0,0) stroke='black'/><path d='M300,150 S500,50 300,300' fill=rgb(" + f.toString() + ",0,0) stroke='black'/></svg>";
+					f = f + 8;
+					if(f >= 256)
+						f = 255;
+				},2000);
+		}
+	</script>
+</body>
+</html>		
