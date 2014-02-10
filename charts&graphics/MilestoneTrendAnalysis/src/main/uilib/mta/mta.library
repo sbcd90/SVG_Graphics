@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<library xmlns="http://www.sap.com/sap.ui.library.xsd" >
+
+	<name>mta</name>
+	<vendor>sap.com</vendor>
+	<version>0.0</version>
+
+	<documentation>[Enter description for mta]</documentation>
+
+<dependencies>
+	<dependency>
+		<libraryName>sap.ui.core</libraryName>
+	</dependency>
+</dependencies>
+</library>

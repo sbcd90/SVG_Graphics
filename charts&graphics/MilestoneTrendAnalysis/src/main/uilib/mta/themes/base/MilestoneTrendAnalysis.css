@@ -1,0 +1,50 @@
+
+/* ============================================= */
+/* CSS for control mta/MilestoneTrendAnalysis.control */
+/* ============================================= */
+
+.mtaMilestoneTrendAnalysis{
+  color: @sapUiTextColor;
+  border: 1px solid blue;
+}
+
+.tick{
+	stroke : #000000; 
+}
+
+.xaxis{
+	stroke : rgb(180, 171, 171);
+}
+
+.yaxis{
+	stroke : rgb(180, 171, 171);
+}
+
+.diagonal{
+	stroke : #0B4C5F;
+}
+
+.gridlines{
+	stroke : rgb(180, 171, 171);
+}
+
+.ctype1{
+	stroke : #298A08;
+	fill : #298A08;
+}
+
+.ctype2{
+	stroke : #000000;
+	fill : #000000;
+}
+
+.ctype3{
+	stroke : #FF0000;
+	fill : #FF0000;
+}
+
+.textcolor{
+	fill : #000000;
+	font-size : 70%;
+	font-family:Arial,Helvetica,sans-serif;
+}

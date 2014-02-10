@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<control xmlns="http://www.sap.com/sap.ui.library.xsd" >
+
+	<name>MilestoneTrendAnalysis</name>
+
+	<documentation>Add your documentation for the newMilestoneTrendAnalysis</documentation>
+
+	<baseType>sap.ui.core/Control</baseType>
+	<properties>
+		<property group="Misc" name="appName" type="sap.ui.core/string">
+		</property>
+		<property group="Misc" name="width" type="sap.ui.core/CSSSize">
+		</property>
+		<property group="Misc" name="height" type="sap.ui.core/CSSSize">
+		</property>
+		<property group="Misc" name="dummydata" type="sap.ui.core/string">
+		</property>
+	</properties>
+	<events>
+		<event name="click">
+		</event>
+	</events>
+</control>
